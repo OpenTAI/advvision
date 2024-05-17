@@ -2,6 +2,7 @@ import { defineConfig } from "umi";
 
 export default defineConfig({
   title: "advvision",
+  publicPath: '/advvision/',
   routes: [
     { path: "/homepage", redirect: "/" },
     { path: "/", component: "index" },
