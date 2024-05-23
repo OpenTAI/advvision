@@ -1,0 +1,82 @@
+{
+    "whiteBox": [
+        {
+            "projectName": "白盒攻击评测亮点 #1",
+            "projectDescription": "Our white-box penetration testing model offers unparalleled insights into system vulnerabilities by providing testers with complete access to internal architecture",
+            "projectIcon": "whiteBoxIcon1.png"
+        },
+        {
+            "projectName": "白盒攻击评测亮点 #2",
+            "projectDescription": "Our white-box penetration testing model offers unparalleled insights into system vulnerabilities by providing testers with complete access to internal architecture",
+            "projectIcon": "whiteBoxIcon2.png"
+        },
+        {
+            "projectName": "白盒攻击评测亮点 #3",
+            "projectDescription": "Our white-box penetration testing model offers unparalleled insights into system vulnerabilities by providing testers with complete access to internal architecture",
+            "projectIcon": "whiteBoxIcon3.png"
+        }
+    ],
+    "transferbasedAttack": [
+        {
+            "projectName": "迁移攻击评测亮点 #1",
+            "projectDescription": "Our white-box penetration testing model offers unparalleled insights into system vulnerabilities by providing testers with complete access to internal architecture",
+            "projectIcon": "transferbasedAttackIcon1.png"
+        },
+        {
+            "projectName": "迁移攻击评测亮点 #2",
+            "projectDescription": "Our white-box penetration testing model offers unparalleled insights into system vulnerabilities by providing testers with complete access to internal architecture",
+            "projectIcon": "transferbasedAttackIcon2.png"
+        },
+        {
+            "projectName": "迁移攻击评测亮点 #3",
+            "projectDescription": "Our white-box penetration testing model offers unparalleled insights into system vulnerabilities by providing testers with complete access to internal architecture",
+            "projectIcon": "transferbasedAttackIcon3.png"
+        }
+    ],
+    "whiteBoxLeaderboards": [
+        {
+            "title": "CIFAR-10",
+            "subtitle": "Large language model",
+            "modelsNum": "234",
+            "reviewed": "Reviewed by more than 200K Users",
+            "star": "4.8"
+        },
+        {
+            "title": "ImageNet",
+            "subtitle": "Large image model",
+            "modelsNum": "234",
+            "reviewed": "Reviewed by more than 200K Users",
+            "star": "4.8"
+        },
+        {
+            "title": "CC1M",
+            "subtitle": "Large language model",
+            "modelsNum": "234",
+            "reviewed": "Reviewed by more than 200K Users",
+            "star": "4.8"
+        }
+    ],
+    "transferAttackLeaderboards": [
+        {
+            "title": "CIFAR-10",
+            "subtitle": "Large language model",
+            "modelsNum": "234",
+            "reviewed": "Reviewed by more than 200K Users",
+            "star": "4.8"
+        },
+        {
+            "title": "ImageNet",
+            "subtitle": "Large image model",
+            "modelsNum": "234",
+            "reviewed": "Reviewed by more than 200K Users",
+            "star": "4.8"
+        },
+        {
+            "title": "CC1M",
+            "subtitle": "Large language model",
+            "modelsNum": "234",
+            "reviewed": "Reviewed by more than 200K Users",
+            "star": "4.8"
+        }
+    ]
+}
