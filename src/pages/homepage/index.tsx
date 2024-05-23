@@ -55,34 +55,34 @@ const Homepage = () => {
             This project provide tools and datasets that facilitates large-scale
             adversarial robustness evaluation of foundation vision models.
           </div>
-          <div className="bg-base-blue rounded-full flex items-center text-center text-white absolute text-xs w-16 h-16 left-80 top-44">
+          <div className="border-white border-2 bg-base-blue rounded-full flex items-center text-center text-white absolute text-xs w-16 h-16 left-80 top-44">
             Object Detection
           </div>
-          <div className="bg-base-blue rounded-full flex items-center text-center text-white absolute text-sm w-24 h-24 left-168 top-52">
+          <div className="border-white border-2 bg-base-blue rounded-full flex items-center text-center text-white absolute text-sm w-24 h-24 left-168 top-52">
             Image Captioning
           </div>
-          <div className="bg-base-blue rounded-full flex items-center text-center text-white absolute text-sm w-24 h-24 left-255 top-40">
+          <div className="border-white border-2 bg-base-blue rounded-full flex items-center text-center text-white absolute text-sm w-24 h-24 left-255 top-40">
             Image Classification
           </div>
-          <div className="bg-base-blue rounded-full flex items-center text-center text-white absolute text-sm w-24 h-24 left-44 top-72">
+          <div className="border-white border-2 bg-base-blue rounded-full flex items-center text-center text-white absolute text-sm w-24 h-24 left-44 top-72">
             Face Recognition
           </div>
-          <div className="bg-base-blue rounded-full flex items-center text-center text-white absolute text-xs w-16 h-16 left-96 top-101">
+          <div className="border-white border-2 bg-base-blue rounded-full flex items-center text-center text-white absolute text-xs w-16 h-16 left-96 top-101">
             Crowd Counting
           </div>
-          <div className="bg-base-blue rounded-full flex items-center text-center text-white absolute text-base w-40 h-40 left-210 top-80">
+          <div className="border-white border-2 bg-base-blue rounded-full flex items-center text-center text-white absolute text-base w-40 h-40 left-210 top-80">
             Medical Image Classification
           </div>
-          <div className="bg-base-blue rounded-full flex items-center text-center text-white absolute text-sm w-24 h-24 left-52 top-144">
+          <div className="border-white border-2 bg-base-blue rounded-full flex items-center text-center text-white absolute text-sm w-24 h-24 left-52 top-144">
             Pose Estimation
           </div>
-          <div className="bg-base-blue rounded-full flex items-center text-center text-white absolute text-base w-40 h-40 left-101 top-168">
+          <div className="border-white border-2 bg-base-blue rounded-full flex items-center text-center text-white absolute text-base w-40 h-40 left-101 top-168">
             Instance Segmentation
           </div>
-          <div className="bg-base-blue rounded-full flex items-center text-center text-white absolute text-sm w-24 h-24 left-175 top-168">
+          <div className="border-white border-2 bg-base-blue rounded-full flex items-center text-center text-white absolute text-sm w-24 h-24 left-175 top-168">
             Person Re-Identification
           </div>
-          <div className="bg-base-blue rounded-full flex items-center text-center text-white absolute text-sm w-24 h-24 left-[1044px] top-144">
+          <div className="border-white border-2 bg-base-blue rounded-full flex items-center text-center text-white absolute text-sm w-24 h-24 left-[1044px] top-144">
             Semantic Segmentation
           </div>
         </div>
