@@ -19,7 +19,8 @@ module.exports = {
         'base-black': '#061237',
         'light-grey': '	#FAFBFC',
         'light-green': '#F6FBFA',
-        'des-blue': '#2C4673'
+        'des-blue': '#2C4673',
+        'table-bg': '#F8F9FA'
       },
       backgroundImage: {
         'headImg': "url('@/assets/img/headImg.png')",
@@ -28,6 +29,7 @@ module.exports = {
         'GitHubBackground2': "url('@/assets/img/GitHubBackground2.png')",
         'leaderboardsBg1': "url('@/assets/img/leaderboardsBg1.png')",
         'leaderboardsBg2': "url('@/assets/img/leaderboardsBg2.png')",
+        'leaderboardsBg3': "url('@/assets/img/leaderboardsBg3.png')",
       },
       spacing: {
         '19': "4.75rem",

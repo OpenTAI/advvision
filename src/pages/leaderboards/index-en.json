@@ -1,0 +1,67 @@
+{
+    "leaderboards": [
+        {
+            "key": "1",
+            "name": "GPT-4",
+            "paper": "Robust Principles: Architectural DesignPrinciples for Adversarially Robust...",
+            "download": "112,092",
+            "datasetA": "76.5%",
+            "datasetB": "76.5%",
+            "ranking": "1"
+        },
+        {
+            "key": "2",
+            "name": "Llama 3",
+            "paper": "Better Diffusion Models Further lmprove Adversarial Training",
+            "download": "112,092",
+            "datasetA": "76.5%",
+            "datasetB": "76.5%",
+            "ranking": "2"
+        },
+        {
+            "key": "3",
+            "name": "Claude 3",
+            "paper": "MixedNUTS: Training-Free Accuracy-RobustnessBalance via Nonlinearly Mixed...",
+            "download": "112,092",
+            "datasetA": "76.5%",
+            "datasetB": "76.5%",
+            "ranking": "3"
+        },
+        {
+            "key": "4",
+            "name": "Ernie-4.0",
+            "paper": "Improving the Accuracy-Robustness Trade-off ofClassifiers via Adaptive Smoothing",
+            "download": "112,092",
+            "datasetA": "76.5%",
+            "datasetB": "76.5%",
+            "ranking": "4"
+        },
+        {
+            "key": "5",
+            "name": "GPT-3.5 turbo",
+            "paper": "Better Diffusion Models Further lmprove Adversarial Training",
+            "download": "112,092",
+            "datasetA": "76.5%",
+            "datasetB": "76.5%",
+            "ranking": "5"
+        },
+        {
+            "key": "6",
+            "name": "GPT-3.5",
+            "paper": "MixedNUTS: Training-Free Accuracy-RobustnessBalance via Nonlinearly Mixed...",
+            "download": "112,092",
+            "datasetA": "76.5%",
+            "datasetB": "76.5%",
+            "ranking": "6"
+        },
+        {
+            "key": "7",
+            "name": "xAI-Grok 2",
+            "paper": "Better Diffusion Models Further lmprove Adversarial Training",
+            "download": "112,092",
+            "datasetA": "76.5%",
+            "datasetB": "76.5%",
+            "ranking": "7"
+        }
+    ]
+}

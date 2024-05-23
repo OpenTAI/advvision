@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { setLocale, useIntl, connect, history } from 'umi';
+import { history } from 'umi';
 import logo from '@/assets/img/logo.png';
 
 const Header = () => {
@@ -10,8 +10,7 @@ const Header = () => {
         {
             name: "Home",
             children: null,
-            onClick: () => {
-            },
+            onClick: () => { history.push('/') },
         },
         {
             name: "Datasets",
@@ -26,7 +25,7 @@ const Header = () => {
         {
             name: "Leaderboards",
             children: null,
-            onClick: null,
+            onClick: () => history.push('/leaderboards'),
         },
     ];
 
@@ -42,7 +41,7 @@ const Header = () => {
             <div className='w-96 flex justify-between'>
                 {headData.map((item, index) => {
                     return (
-                        <div key={index} className='text-base-blue font-semibold text-base cursor-pointer'>
+                        <div key={index} className='text-base-blue font-semibold text-base cursor-pointer' onClick={item.onClick}>
                             {item.name}
                         </div>
                     )

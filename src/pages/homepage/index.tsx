@@ -224,7 +224,7 @@ const Homepage = () => {
                         <div
                           data-aos="fade-up"
                           data-aos-duration="1000"
-                          data-aos-delay={index * 100}
+                          data-aos-delay={index * 2 * 100}
                           key={index}
                           className="mt-4 bg-leaderboardsBg1 h-40 bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-5 px-7 relative"
                         >
@@ -273,7 +273,7 @@ const Homepage = () => {
                         <div
                           data-aos="fade-up"
                           data-aos-duration="1000"
-                          data-aos-delay={index * 100}
+                          data-aos-delay={(2 * index + 1) * 100}
                           key={index}
                           className="mt-4 bg-leaderboardsBg2 h-40 bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-5 px-7 relative"
                         >
