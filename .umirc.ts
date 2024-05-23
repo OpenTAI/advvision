@@ -3,7 +3,7 @@ import { defineConfig } from "umi";
 export default defineConfig({
   title: "advvision",
   publicPath: "/advvision/",
-  // history: {type: "hash"},
+  history: {type: "hash"},
   routes: [
     { path: "/homepage", redirect: "/" },
     { path: "/", component: "homepage" },
