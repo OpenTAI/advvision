@@ -13,14 +13,6 @@ const Homepage = () => {
   AOS.init();
   const [data, setData] = useState(dataEn);
 
-  // useEffect(() => {
-  //   if (language === "zh-CN") {
-  //     setData(dataZh);
-  //   } else {
-  //     setData(dataEn);
-  //   }
-  // }, [language]);
-
   const {
     whiteBox,
     transferbasedAttack,
@@ -31,31 +23,32 @@ const Homepage = () => {
   return (
     <div>
       <Header />
+      <div className="h-16" />
       <div className="max-w-360 mx-auto relative">
         <img
           src={headImg}
           className="h-208 absolute -z-10 object-cover object-top"
         />
         <div className="flex items-center flex-col">
-          <div className="mt-16 text-base-blue text-6xl font-extralight w-168 text-center leading-18">
+          <div className="mt-16 text-base-blue text-6xl font-extralight max-w-168 text-center leading-18 mx-3">
             Open Trustworthy AI : Trust is the ultimate form of intelligence.
           </div>
-          <div className="mt-5 text-3xl font-light leading-9">
+          <div className="mt-5 text-3xl font-light leading-9 text-center mx-3">
             Are will find resultant, one painful consequences from.
           </div>
           <div className="bg-base-blue h-19 w-80 text-white text-2xl font-medium flex items-center justify-center mt-8">
             View Leaderboards
           </div>
         </div>
-        <div className="bg-worldImg w-320 h-233 bg-cover mx-auto mt-16 relative">
+        <div className="bg-worldImg bg-center h-233 bg-cover mx-auto mt-16 relative">
           <div className="text-base-blue text-[42px] font-bold text-center pt-10">
             10 Planets form
           </div>
-          <div className="w-144 mx-auto text-center mt-2 text-lg text-base-grey">
+          <div className="max-w-144 mx-auto text-center mt-2 text-lg text-base-grey">
             This project provide tools and datasets that facilitates large-scale
             adversarial robustness evaluation of foundation vision models.
           </div>
-          <div className="border-white border-2 bg-base-blue rounded-full flex items-center text-center text-white absolute text-xs w-16 h-16 left-80 top-44">
+          {/* <div className="border-white border-2 bg-base-blue rounded-full flex items-center text-center text-white absolute text-xs w-16 h-16 left-80 top-44">
             Object Detection
           </div>
           <div className="border-white border-2 bg-base-blue rounded-full flex items-center text-center text-white absolute text-sm w-24 h-24 left-168 top-52">
@@ -84,15 +77,15 @@ const Homepage = () => {
           </div>
           <div className="border-white border-2 bg-base-blue rounded-full flex items-center text-center text-white absolute text-sm w-24 h-24 left-[1044px] top-144">
             Semantic Segmentation
-          </div>
+          </div> */}
         </div>
         <div className="max-w-320 mx-auto px-3">
           <div className="mt-14">
-            <div className="text-base-blue text-5sm font-semibold w-191 text-center mx-auto leading-14">
+            <div className="text-base-blue text-5sm font-semibold max-w-191 text-center mx-auto leading-14">
               White-box testing methodology stands as a beacon of excellence in
               proactive security assessment.
             </div>
-            <div className="text-light-blue text-base w-191 text-center mx-auto mt-4">
+            <div className="text-light-blue text-base max-w-191 text-center mx-auto mt-4">
               By leveraging this transparent approach, our model not only
               identifies vulnerabilities but also provides actionable
               recommendations for remediation
@@ -108,7 +101,7 @@ const Homepage = () => {
                   return (
                     <div
                       key={index}
-                      className="bg-light-grey hover:cursor-pointer h-64 break-inside-avoid-column grow-[3]"
+                      className="bg-light-grey hover:cursor-pointer hover:shadow-[0px_3px_8px_0px_#A7AEB733] h-64 break-inside-avoid-column grow-[3]"
                       data-aos="fade-up"
                       data-aos-duration="1000"
                       data-aos-delay={index * 100}
@@ -121,7 +114,7 @@ const Homepage = () => {
                         <div className="mt-8 text-base-blue text-xl font-semibold">
                           {item.projectName}
                         </div>
-                        <div className="mt-2 h-28 text-des-blue text-base line-clamp-4">
+                        <div className="mt-2 h-24 text-des-blue text-base line-clamp-4">
                           {item.projectDescription}
                         </div>
                       </div>
@@ -141,7 +134,7 @@ const Homepage = () => {
                   return (
                     <div
                       key={index}
-                      className="bg-light-green hover:cursor-pointer h-64 break-inside-avoid-column grow-[3]"
+                      className="bg-light-green hover:cursor-pointer hover:shadow-[0px_3px_8px_0px_#A7AEB733] h-64 break-inside-avoid-column grow-[3]"
                       data-aos="fade-up"
                       data-aos-duration="1000"
                       data-aos-delay={index * 100}
@@ -154,7 +147,7 @@ const Homepage = () => {
                         <div className="mt-8 text-base-blue text-xl font-semibold">
                           {item.projectName}
                         </div>
-                        <div className="mt-2 h-28 text-des-blue text-base line-clamp-4">
+                        <div className="mt-2 h-24 text-des-blue text-base line-clamp-4">
                           {item.projectDescription}
                         </div>
                       </div>
@@ -165,7 +158,7 @@ const Homepage = () => {
             </div>
           </div>
           <div className="mt-22">
-            <div className="text-base-black text-5sm font-semibold w-191 mx-auto text-center">
+            <div className="text-base-black text-5sm font-semibold max-w-191 mx-auto text-center">
               Models and Datasets developed by OpenTAI Evaluation Platform
             </div>
             <div className="mt-10">
@@ -178,7 +171,7 @@ const Homepage = () => {
                   <div className="text-base-black font-bold text-3xl leading-10">
                     TAI.adv
                   </div>
-                  <div className="text-des-blue text-base mt-3 w-108 line-clamp-5 h-32">
+                  <div className="text-des-blue text-base mt-3 max-w-108 line-clamp-5 h-32">
                     This comprehensive visibility allows for a meticulous
                     examination of security loopholes, enabling us to simulate
                     real-world attack scenarios pinpoint accuracy.
@@ -197,7 +190,7 @@ const Homepage = () => {
                   <div className="text-base-black font-bold text-3xl leading-10">
                     CC1M
                   </div>
-                  <div className="text-des-blue text-base mt-3 w-108 line-clamp-5 h-32">
+                  <div className="text-des-blue text-base mt-3 max-w-108 line-clamp-5 h-32">
                     This comprehensive visibility allows for a meticulous
                     examination of security loopholes, enabling us to simulate
                     real-world attack scenarios pinpoint accuracy.
@@ -226,12 +219,12 @@ const Homepage = () => {
                           data-aos-duration="1000"
                           data-aos-delay={index * 2 * 100}
                           key={index}
-                          className="mt-4 bg-leaderboardsBg1 h-40 bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-5 px-7 relative"
+                          className="mt-4 bg-leaderboardsBg1 min-h-40 bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-5 px-7 relative"
                         >
                           <div className="text-base-black font-bold text-2xl leading-7">
                             {item.title}
                           </div>
-                          <div className="text-base-black text-lg mt-1 w-108 flex items-center">
+                          <div className="text-base-black text-lg mt-1 max-w-108 flex items-center">
                             <img
                               src={sparkles}
                               className="w-[18px] h-[16px] mr-1"
@@ -275,12 +268,12 @@ const Homepage = () => {
                           data-aos-duration="1000"
                           data-aos-delay={(2 * index + 1) * 100}
                           key={index}
-                          className="mt-4 bg-leaderboardsBg2 h-40 bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-5 px-7 relative"
+                          className="mt-4 bg-leaderboardsBg2 min-h-40 bg-cover bg-no-repeat bg-center border-[#EBF1F5] border py-5 px-7 relative"
                         >
                           <div className="text-base-black font-bold text-2xl leading-7">
                             {item.title}
                           </div>
-                          <div className="text-base-black text-lg mt-1 w-108 flex items-center">
+                          <div className="text-base-black text-lg mt-1 max-w-108 flex items-center">
                             <img
                               src={sparkles}
                               className="w-[18px] h-[16px] mr-1"
