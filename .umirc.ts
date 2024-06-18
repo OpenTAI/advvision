@@ -26,10 +26,15 @@ export default defineConfig({
   links: [{ rel: "icon", href: "/favicon.ico" }],
   plugins: [
     "@umijs/plugins/dist/tailwindcss",
+    "@umijs/plugins/dist/locale",
     "@umijs/plugins/dist/model",
     "@umijs/plugins/dist/dva",
   ],
   model: {},
   dva: {},
+  locale: {
+    default: "en-US",
+    baseNavigator: true,
+  },
   tailwindcss: {},
 });
