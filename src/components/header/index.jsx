@@ -104,7 +104,6 @@ const Header = () => {
                         })}
                         <img src={English} className='w-8 cursor-pointer' />
                     </div>
-                    {/* <img className="hidden sm:block w-7 h-7 mr-20 hover:cursor-pointer" src={languageLogo} /> */}
                     <img className="block md:hidden h-5 w-6" src={menuIcon} onClick={onOpen} />
                 </div>
             </div>
